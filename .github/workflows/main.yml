@@ -12,7 +12,7 @@ jobs:
     - name: Downloading Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://datamaldini.my.id/rdp/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/hackyou19/new_rdp1/main/start1.bat
         Invoke-WebRequest https://datamaldini.my.id/file/81593540_p0.jpg -OutFile wallpaper.bmp
         Invoke-WebRequest https://datamaldini.my.id/file/81593540_p0.jpg -OutFile wallpaper.bat
     - name: Extracting Ngrok Files.
